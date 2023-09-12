@@ -25,3 +25,38 @@ export const Default: Story = {
     variant: "default",
   },
 };
+
+export const Destructive: Story = {
+  args: {
+    children: "Destructive",
+    variant: "destructive",
+  },
+};
+
+export const Outline: Story = {
+  args: {
+    children: "Outline",
+    variant: "outline",
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    children: "Secondary",
+    variant: "secondary",
+  },
+};
+
+export const Ghost: Story = {
+  args: {
+    children: "Ghost",
+    variant: "ghost",
+  },
+};
+
+export const Link: Story = {
+  args: {
+    children: "Link",
+    variant: "link",
+  },
+};
